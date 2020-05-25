@@ -54,3 +54,26 @@ HTML 标签通常成对出现（双边标记），也有部分单标签（单边
   <body>：用于定义HTML文档所要显示的内容，也称为主体标签。我们所写的代码必须放在此标签內。
   <link>：定义文档与外部资源的关系。
   ```
+
+  - meta 标签
+  meta表示“元”。“元”配置，就是表示基本的配置项目。
+    - 字符集 charset  `<meta charset="UTF-8">` ， utf-8是目前最常用的字符集编码方式，常用的字符集编码方式还有gbk和gb2312等
+    - 视口 viewport ` <meta name="viewport" content="width=device-width, initial-scale=1.0">`
+    - 关键词，便于 seo。`<meta name="Keywords" content="网易,邮箱,游戏,新闻,体育,娱乐,女性,亚运,论坛,短信" />`
+    - 定义“页面描述”, 便于搜索引擎展示。`<meta name="Description" content="网易是中国领先的互联网技术公司，为用户提供免费邮箱、游戏、搜索引擎服务，开设新闻、娱乐、体育等30多个内容频道，及博客、视频、论坛等互动交流，网聚人的力量。" />`
+
+  - title 标签，seo
+  - base 用于指定基础路径，指定之后，所有的 a 链接都是以这个路径为基准。
+
+- body 标签
+  属性：
+  - bgcolor：设置整个网页的背景颜色。
+  - background：设置整个网页的背景图片。
+  - text：设置网页中的文本颜色。
+  - leftmargin：网页的左边距。IE浏览器默认是8个像素。
+  - topmargin：网页的上边距。
+  - rightmargin：网页的右边距。
+  - bottommargin：网页的下边距。
+  - link：默认显示的颜色。
+  - alink：鼠标点击没有松开的颜色。
+  - vlink：点击完成后的颜色。
