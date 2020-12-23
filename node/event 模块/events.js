@@ -1,3 +1,5 @@
+// 官方 events 源码地址：https://github.com/nodejs/node/blob/master/lib/events.js
+
 function EventEmitter() {
   this._event = {};
 }
