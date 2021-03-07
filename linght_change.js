@@ -1,3 +1,4 @@
+// 切换红绿灯
 function green() {
   console.log('green', new Date())
 }
