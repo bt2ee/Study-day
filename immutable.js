@@ -10,7 +10,7 @@ class Immutable {
     return this.copy[key];
   }
   set(key, value) {
-    if (!this.modified) return this.handleChanged();
+    if (!this.modified) this.handleChanged();
     return (this.copy[key] = value);
   }
   handleChanged() {
@@ -37,7 +37,6 @@ const handler = {
     return target.get(propKey);
   },
   set: function(target, propKey, value) {
-    console.log('set', target, propKey, value)
     return target.set(propKey, value);
   }
 }
